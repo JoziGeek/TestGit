@@ -10,6 +10,11 @@
             "StackName": "amplify-testgit-testgiten-153828",
             "StackId": "arn:aws:cloudformation:eu-west-1:831336774265:stack/amplify-testgit-testgiten-153828/b64214f0-938c-11ea-8977-02cedaf7133c",
             "AmplifyAppId": "d2ylzopvm96r3y"
+        },
+        "categories": {
+            "auth": {
+                "testgit549e66de": {}
+            }
         }
     }
 }

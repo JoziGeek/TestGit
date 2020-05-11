@@ -1,0 +1,31 @@
+type TestGitBeneficiaries @model {
+  id: ID!
+  CompanyName: String!
+  CompanyRegNum: String!
+  CompanyRegAddress: String
+  CompanyDirectors: [Person]
+  CompanyEmailAddress: String
+  CompanyVATNum: String!
+  description: String
+}
+type Person @model {
+  id: ID!
+  PersonFirstName: String!
+  PersonLastName: String!
+  PersonIDNumber: String!
+  PersonIDType: IdType!
+  PersonTitle: PersonTitle
+  
+}
+enum IdType{ 
+  SAID 
+  Passport
+}
+enum PersonTitle{ 
+  Mr
+  Mrs
+  Miss 
+  Ms 
+  Dr
+  Prof
+}
